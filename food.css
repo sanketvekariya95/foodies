@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+    text-align: center;
+}
+.nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #A82C48;
+    letter-spacing: 1px;
+}
+.navbar-toggler{
+    font-weight: 800
+}
+a:hover {
+    color: #A82C48 !important;
+}
+
+
+#bg-img{
+    background-image: url('image/bg-1.jpg');
+    /* width: 100%; */
+    /* height: 110vh; */
+    background-repeat: no-repeat;
+    padding: 10rem 0  9.375rem;
+    background-size: cover;
+    background-position: center;
+}
+#text1 h1{
+    color: #43121d;
+    font-size: 50px;
+}
+.white-btn {
+    padding:10px 30px;
+    line-height: 25px;
+    background-color: white;
+    border:3px solid white;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    transition: all .4s ease-out 0s;
+}
+.main-btn {
+padding: 10px;
+/* padding: 0.625rem 1.875rem; */
+    
+    background-color: #A82C48;
+    border: 2px solid #A82C48;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    transition: all .4s ease-out 0s;
+}
+.main-btn:hover {
+    background-color: transparent;
+    color: #A82C48;
+}
+.white-btn:hover {
+    background-color: transparent;
+    color: #A82C48;
+    border-color: #A82C48;
+}
+
+#counter-color{
+    background-color: #A82C48;
+    padding: 25px 0;
+}
+
+#counter-color h2{
+    color: white;
+}
+#counter-color p{
+    color: white;
+    font-size: 20px;
+}
+#image img{
+    border-radius: 9px;
+}
+#text2 p{
+    white-space: 2px;
+    line-height: 29px;
+}
+#text2 h2{
+    color: #43121d;
+}
+#text3 i{
+    font-size: 25px;
+    color: #43121d;
+    font-weight: 800;
+}
+
+#text4{
+    width: 60%;
+    margin: 0 auto;
+}
+#text4 h2{
+    color: #A82C48;
+}
+#main-1{
+    padding-top:130px;
+    padding-bottom: 120px;
+}
+#text5{
+ width: 70%;
+ margin: 0 auto;
+}
+#text5 h2{
+    color: #43121d;
+    
+}
+
+#text5 p{
+    color: grey;
+    letter-spacing: 1px;
+
+}
+.image-text h2{
+    color: #43121d;
+    font-size: 20px;
+}
+.image-text h3{
+    color: #A82C48;
+    font-weight: 700;
+    border-bottom: 0.0625rem solid rgba(128, 128, 128, 0.511);
+    padding-bottom: 10px;
+}
+.image-text del{
+    color: gray;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.image-text img{
+    border-radius: 10px;
+}
+#text6 span{
+    font-size: 40px;
+    color: #A82C48;
+}
+#text6 p{
+    color: #555;
+}
+.top{
+    padding-top: 60px;
+}
+.top h1{
+    color: #43121d;
+}
+.book{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.book h2{
+    color: #43121d;
+}
+.newsletter{
+    width: 55%;
+    margin: 0 auto;
+}
+.newsletter .form-control {
+    height: 50px;
+    padding: 0 10px;
+    font-size: 0.875rem;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid gray;
+    color: black;
+    font-weight: 700;
+}
+
+.newsletter .form-control:focus {
+    outline: none;
+    /* box-shadow: none; */
+    border-color: #A82C48;
+}
+
+#carouselExampleDark{
+    background-color: #A82C48;
+    height: 650px;
+}
+#white1{
+    width: 80%;
+    margin: 0 auto;
+  
+    background-color: white;
+    border-radius: 10px;
+  
+    margin-top: 110px;
+    padding: 50px 20px 10px 20px;
+    
+}
+#white img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
+#white p{
+    line-height: 35px;
+    /* padding: 0 100px 0 100px; */
+    font-size: 20px;
+    padding: 0 11% 0.625rem;
+    color: #555;
+    font-size: 1.3125rem;
+}
+#white h5{
+    color: #A82C48;
+}
+
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: white !important;
+}
+.main-1{
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.footer{
+    background-color: #A82C48;
+}
+
+.footer .footer-link {
+    font-size: 1rem;
+    color: white !important;
+    padding: 0 1.875rem;
+    text-decoration: none
+    /* padding: 0 1.875rem; */
+}
+
+.footer a i {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
+
+
+
